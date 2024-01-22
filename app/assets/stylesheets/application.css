@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+ blockquote {
+  border-left: 6px solid rgb(180, 177, 177);
+ }

@@ -1,0 +1,16 @@
+<h1 class= "card-body m-3" style="width: 30%">Stupid Coaching</h1>
+<blockquote class="ms-3">
+  <div class= "card-body" style="width: 30%">
+    <%= @question %>
+    <em><p>-You</p></em>
+  </div>
+</blockquote>
+<blockquote class="ms-3">
+  <div class= "card-body alert-warning" style="width: 30%">
+    <strong><%= @answer %></strong>
+    <em><p>-Your coach</p></em>
+  </div>
+</blockquote>
+<div class= "card-body m-1" style="width: 30%">
+<%= link_to "Ask a new Question", ask_path %>
+</div>
